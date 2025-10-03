@@ -1,0 +1,309 @@
+codigo,nombre,descripcion,categoria,subcategoria,estado,tipoMadera,largo,ancho,alto,unidadMedida,costo,precioPorPie,ubicacion
+1400,TABLAS 1/2 X 6 X 4,nada,Maderas,Tabla,Activo,Saligna,4,"0,5",6,Pie,420,700,1
+1401,TABLAS 1/2 X 6 X 3 ,nada,Maderas,Tabla,Activo,Saligna,3,"0,5",6,Pie,420,700,1
+1402,TABALAS 1” X 4 X 3,nada,Maderas,Tabla,Activo,Saligna,3,1,4,Pie,353,700,1
+1403,TABALAS 1” X4 X 4,nada,Maderas,Tabla,Activo,Saligna,4,1,4,Pie,353,700,1
+1404,TABLAS 1” X 5 X 3 ,nada,Maderas,Tabla,Activo,Saligna,3,1,5,Pie,353,700,1
+1405,TABLAS 1 X 5 X 4,nada,Maderas,Tabla,Activo,Saligna,4,1,5,Pie,353,700,1
+1406,TABALAS 1 X 6 X 3,nada,Maderas,Tabla,Activo,Saligna,3,1,6,Pie,353,700,1
+1407,TABLAS 1 X 6 X 4,nada,Maderas,Tabla,Activo,Saligna,4,1,6,Pie,353,700,1
+1408,TABLAS 1 X 8 X 3,nada,Maderas,Tabla,Activo,Saligna,8,1,8,Pie,420,700,1
+1409,TABLAS 1 X 8 X 4,nada,Maderas,Tabla,Activo,Saligna,4,1,8,Pie,420,700,1
+1410,"CLAVADERAS 2"" X 2 X 3",nada,Maderas,liston,Activo,Saligna,3,2,2,Pie,420,700,1
+1411,CLAVADERA 2 X 2 X 4 ,nada,Maderas,liston,Activo,Saligna,4,2,2,Pie,420,700,1
+1412,"PUNTALES DE 3"" X 3” X 3 ",nada,Maderas,POSTE,Activo,Saligna,3,3,3,Pie,386,700,1
+1413,"PUNTALES DE 3"" X 3” X 4 ",nada,Maderas,POSTE,Activo,Saligna,4,3,3,Pie,386,700,1
+1414,PUNTALES 4 X 4 X 3,nada,Maderas,POSTE,Activo,Saligna,3,4,4,Pie,386,700,1
+1415,PUNTALES 4 X 4 X 4 ,nada,Maderas,POSTE,Activo,Saligna,4,4,4,Pie,386,700,1
+1416,TIRANTE 2 X 4 X 3,nada,Maderas,TIRANTE,Activo,Saligna,3,2,4,Pie,386,700,1
+1417,TIRANTE 2 X 4 X 4,nada,Maderas,TIRANTE,Activo,Saligna,4,2,4,Pie,386,700,1
+1418,TIRANTE 2 X 5 X 3 ,nada,Maderas,TIRANTE,Activo,Saligna,3,2,5,Pie,386,700,1
+1419,TIRANTE 2 X 5 X 4 ,nada,Maderas,TIRANTE,Activo,Saligna,4,2,5,Pie,386,700,1
+1420,TIRANTE 2 X 6 X 3 ,nada,Maderas,TIRANTE,Activo,Saligna,3,2,6,Pie,386,700,1
+1421,TIRANTE 2 X 6 X 4 ,nada,Maderas,TIRANTE,Activo,Saligna,4,2,6,Pie,386,700,1
+1422,"LISTONES 1"" X 2” X 3”",nada,Maderas,liston,Activo,Saligna,3,1,2,Pie,420,1,1
+1423,LISTON 1 X 2 X 4,nada,Maderas,liston,Activo,Saligna,4,1,2,Pie,420,1,1
+1589,TIRANTE 2 X 4 X 3 ,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,3,2,4,Pie,1300,2300,1
+1590,TIRANTE 2 X 4 X 4,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,4,2,4,Pie,1300,2300,1
+1591,TIRANTE 2 X 5 X 3 ,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,3,2,5,Pie,1300,2300,1
+1592,TIRANTE 2 X 5 X 4,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,4,2,5,Pie,1300,2300,1
+1593,TIRANTE 2 X 6 X 3,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,3,2,6,Pie,1300,2300,1
+1594,TIRANTE 2 X 6 X 4,nada,Maderas,TIRANTE,Activo,Rostrata/Eucalipto colorado,4,2,6,Pie,1300,2300,1
+1595,TABLA 1 X 4 X 4,nada,Maderas,Tabla,Activo,Rostrata/Eucalipto colorado,4,1,4,Pie,1300,2300,1
+1596,TABLA 1 X 4 X 3,nada,Maderas,Tabla,Activo,Rostrata/Eucalipto colorado,3,1,4,Pie,1300,2300,1
+1550,TIRANTE 2 X 4 X 2 ,nada,Maderas,TIRANTE,Activo,Quebracho,2,2,4,Pie,1550,2500,1
+1551,TIRANTE 2 X 4 X 3 ,nada,Maderas,TIRANTE,Activo,Quebracho,3,2,4,Pie,1550,2500,1
+1552,TIRANTE 2 X 4 X 4,nada,Maderas,TIRANTE,Activo,Quebracho,4,2,4,Pie,1550,2500,1
+1553,TABLA 2 X 9 X 1,nada,Maderas,Tabla,Activo,Quebracho,1,2,9,Pie,1550,2500,1
+1554,TABLA 2 X 9 X 1.50,nada,Maderas,Tabla,Activo,Quebracho,"1,5",2,9,Pie,1550,2500,1
+1555,TABLA 2 X 9 X 2,nada,Maderas,Tabla,Activo,Quebracho,2,2,9,Pie,1550,2500,1
+1556,TABLA 2 X 9 X 2.50,nada,Maderas,Tabla,Activo,Quebracho,"2,5",2,9,Pie,1550,2500,1
+1557,TABLA 2 X 9 X 2.70,nada,Maderas,Tabla,Activo,Quebracho,"2,7",2,9,Pie,1550,2500,1
+1558,TABLA 2 X 9 X 3,nada,Maderas,Tabla,Activo,Quebracho,3,2,9,Pie,1550,2500,1
+1559,POSTE 3 X 3 X 1 ,nada,Maderas,POSTE,Activo,Quebracho,1,3,3,Pie,1550,2500,1
+1560,POSTE 3 X 3 X 1.50,nada,Maderas,POSTE,Activo,Quebracho,"1,5",3,3,Pie,1550,2500,1
+1561,POSTE 3 X 3 X 2,nada,Maderas,POSTE,Activo,Quebracho,2,3,3,Pie,1550,2500,1
+1562,POSTE 3 X 3 X 2.50,nada,Maderas,POSTE,Activo,Quebracho,"2,5",3,3,Pie,1550,2500,1
+1563,POSTE 3 X 3 X 3,nada,Maderas,POSTE,Activo,Quebracho,3,3,3,Pie,1550,2500,1
+1564,POSTE 3 X 6 X 2,nada,Maderas,POSTE,Activo,Quebracho,2,3,6,Pie,1550,2500,1
+1565,POSTE 3 X 6 X 2.50,nada,Maderas,POSTE,Activo,Quebracho,"2,5",3,6,Pie,1550,2500,1
+1566,POSTE 3 X 6 X 3,nada,Maderas,POSTE,Activo,Quebracho,3,3,6,Pie,1550,2500,1
+1567,POSTE 3 X 6 X 3.50,nada,Maderas,POSTE,Activo,Quebracho,"3,5",3,6,Pie,1550,2500,1
+1568,POSTE 3 X 6 X 4,nada,Maderas,POSTE,Activo,Quebracho,4,3,6,Pie,1550,2500,1
+1569,POSTE 3 X 6 X 4.50,nada,Maderas,POSTE,Activo,Quebracho,"4,5",3,6,Pie,1550,2500,1
+1570,POSTE 3 X 6 X 5,nada,Maderas,POSTE,Activo,Quebracho,5,3,6,Pie,1550,2500,1
+1571,POSTE 3 X 6 X 5.50,nada,Maderas,POSTE,Activo,Quebracho,"5,5",3,6,Pie,1550,2500,1
+1572,POSTE 3 X 6 X 6,nada,Maderas,POSTE,Activo,Quebracho,6,3,6,Pie,1550,2500,1
+1573,POSTE 4 X 4 X 2,nada,Maderas,POSTE,Activo,Quebracho,2,4,4,Pie,1550,2500,1
+1574,POSTE 4 X 4 X 3 ,nada,Maderas,POSTE,Activo,Quebracho,3,4,4,Pie,1550,2500,1
+1575,POSTE 4 X 4 X 4 ,nada,Maderas,POSTE,Activo,Quebracho,4,4,4,Pie,1550,2500,1
+1576,POSTE 4 X 4 X 5,nada,Maderas,POSTE,Activo,Quebracho,5,4,4,Pie,1550,2500,1
+1577,POSTE 5 X 5 X 2 ,nada,Maderas,POSTE,Activo,Quebracho,2,5,5,Pie,1550,2500,1
+1578,POSTE 5 X 5 X 3,nada,Maderas,POSTE,Activo,Quebracho,3,5,5,Pie,1550,2500,1
+1579,POSTE 5 X 5 X 4,nada,Maderas,POSTE,Activo,Quebracho,4,5,5,Pie,1550,2500,1
+1580,POSTE 5 X 5 X 5,nada,Maderas,POSTE,Activo,Quebracho,5,5,5,Pie,1550,2500,1
+1581,TABLAS 1 X 4 X 1,nada,Maderas,Tabla,Activo,Quebracho,1,1,4,Pie,1550,2500,1
+1582,TABLA 1 X 4 X 2 ,nada,Maderas,Tabla,Activo,Quebracho,2,1,4,Pie,1550,2500,1
+1583,TABLA 1 X 4 X 3,nada,Maderas,Tabla,Activo,Quebracho,3,1,4,Pie,1550,2500,1
+1584,TABLA 1 X 4 X 4 ,nada,Maderas,Tabla,Activo,Quebracho,4,1,4,Pie,1550,2500,1
+1585,TABLA 1 X 6 X 1,nada,Maderas,Tabla,Activo,Quebracho,1,1,6,Pie,1550,2500,1
+1586,TABLA 1 X 6 X 2,nada,Maderas,Tabla,Activo,Quebracho,2,1,6,Pie,1550,2500,1
+1587,TABLA 1 X 6 X 3 ,nada,Maderas,Tabla,Activo,Quebracho,3,1,6,Pie,1550,2500,1
+1588,TABLA 1 X 6 X 4,nada,Maderas,Tabla,Activo,Quebracho,4,1,6,Pie,1550,2500,1
+1000,"YESEROS 1/2"" X 1”",nada,Maderas,Tabla,Activo,Pino,1,"0,5",1,Pie,1,1,1
+1001,"MACHIMBRE DE PINO 1/2"" X 4” ",nada,Maderas,machimbre,Activo,Pino,4,"0,5",4,Pie,4100,1,1
+1002,"MACHIMBRE DE PINO 1/2"" X 5” ",nada,Maderas,machimbre,Activo,Pino,1,"0,5",5,Pie,4100,1,1
+1003,"MACHIMBRE DE PINO 1"" X 6",nada,Maderas,machimbre,Activo,Pino,1,1,6,Pie,7650,1,1
+1004,TIRANTE DE PINO 2 X 5 X 3,nada,Maderas,TIRANTE,Activo,Pino,3,2,5,Pie,526,750,1
+1005,TIRANTE DE PINO 2 X 5 X 3.20,nada,Maderas,TIRANTE,Activo,Pino,"3,2",2,5,Pie,526,750,1
+1006,TIRANTE DE PINO 2 X 5 X 3.40,nada,Maderas,TIRANTE,Activo,Pino,"3,4",2,5,Pie,526,70,1
+1007,TIRANTE DE PINO 2 X 5 x 3.60,nada,Maderas,TIRANTE,Activo,Pino,"3,6",2,5,Pie,526,750,1
+1008,TIRANTE DE PINO 2 x 5 x 3.80,nada,Maderas,TIRANTE,Activo,Pino,"3,8",2,5,Pie,526,750,1
+1009,TIRANTE DE PINO 2 x 5 x 4,nada,Maderas,TIRANTE,Activo,Pino,4,2,5,Pie,526,750,1
+1010,TIRANTE DE PINO 2 x 5 x4.20,nada,Maderas,TIRANTE,Activo,Pino,"4,2",2,5,Pie,526,750,1
+1011,TIRANTE DE PINO 2 x 5 x 4.40,nada,Maderas,TIRANTE,Activo,Pino,"4,4",2,5,Pie,583,750,1
+1012,TIRANTE DE PINO 2 x 5 x 4.60,nada,Maderas,TIRANTE,Activo,Pino,"4,6",2,5,Pie,583,750,1
+1013,TIRANTE DE PINO 2 x 5 x 4.80,nada,Maderas,TIRANTE,Activo,Pino,"4,8",2,5,Pie,583,750,1
+1014,TIRANTE DE PINO 2 x 5 x 5 ,nada,Maderas,TIRANTE,Activo,Pino,5,2,5,Pie,583,1050,1
+1015,TIRANTE DE PINO 2 x 5 x 5.20,nada,Maderas,TIRANTE,Activo,Pino,"5,2",2,5,Pie,583,1050,1
+1016,TIRANTE DE PINO 2 x 5 x 5.40,nada,Maderas,TIRANTE,Activo,Pino,"5,4",2,5,Pie,583,1050,1
+1017,TIRANTE DE PINO 2 x 5 x 5.60,nada,Maderas,TIRANTE,Activo,Pino,"5,6",2,5,Pie,583,1050,1
+1018,TIRANTE DE PINO 2 x 5 x 5.80,nada,Maderas,TIRANTE,Activo,Pino,"5,8",2,5,Pie,583,1050,1
+1019,TIRANTE DE PINO 2 x 5 x 6 ,nada,Maderas,TIRANTE,Activo,Pino,6,2,5,Pie,583,1050,1
+1020,TIRANTE DE PINO 2 X 6 X 3.20,nada,Maderas,TIRANTE,Activo,Pino,"3,2",2,6,Pie,526,750,1
+1021,TIRANTE DE PINO 2 X 6 X 3.40,nada,Maderas,TIRANTE,Activo,Pino,"3,4",2,6,Pie,526,750,1
+1022,TIRANTE DE PINO 2 X 6 X 3.60,nada,Maderas,TIRANTE,Activo,Pino,"3,6",2,6,Pie,526,750,1
+1023,TIRANTE DE PINO 2 X 6 X 3.80,nada,Maderas,TIRANTE,Activo,Pino,"3,8",2,6,Pie,526,750,1
+1024,TIRANTE DE PINO 2 X 6 X 4,nada,Maderas,TIRANTE,Activo,Pino,4,2,6,Pie,526,750,1
+1025,TIRANTE DE PINO 2 X 6 X 4.20,nada,Maderas,TIRANTE,Activo,Pino,"4,2",2,6,Pie,526,750,1
+1026,TIRANTE DE PINO 2 X 6 X 4.40,nada,Maderas,TIRANTE,Activo,Pino,"4,4",2,6,Pie,583,750,1
+1027,TIRANTE DE PINO 2 X 6 X 4.60,nada,Maderas,TIRANTE,Activo,Pino,"4,6",2,6,Pie,583,750,1
+1028,TIRANTE DE PINO 2 X 6 X 4.80,nada,Maderas,TIRANTE,Activo,Pino,"4,8",2,6,Pie,583,750,1
+1029,TIRANTE DE PINO 2 X 6 X 5,nada,Maderas,TIRANTE,Activo,Pino,5,2,6,Pie,583,1050,1
+1030,TIRANTE DE PINO 2 X 6 X 5.20,nada,Maderas,TIRANTE,Activo,Pino,"5,2",2,6,Pie,583,1050,1
+1031,TIRANTE DE PINO 2 X 6 X 5.40,nada,Maderas,TIRANTE,Activo,Pino,"5,4",2,6,Pie,583,1050,1
+1032,TIRANTE DE PINO 2 X 6 X 5.60,nada,Maderas,TIRANTE,Activo,Pino,"5,6",2,6,Pie,640,1050,1
+1033,TIRANTE DE PINO 2 X 6 X 5.80,nada,Maderas,TIRANTE,Activo,Pino,"5,8",2,6,Pie,640,1050,1
+1034,TIRANTE DE PINO 2 X 6 X 6,nada,Maderas,TIRANTE,Activo,Pino,6,2,6,Pie,640,1050,1
+1035,TIRANTE DE PINO 2 X 6 X 6.20,nada,Maderas,TIRANTE,Activo,Pino,"6,2",2,6,Pie,640,1050,1
+1036,TIRANTE DE PINO 2 X 6 X 6.40,nada,Maderas,TIRANTE,Activo,Pino,"6,4",2,6,Pie,640,1050,1
+1037,TIRANTE DE PINO 2 X 6 X 6.60,nada,Maderas,TIRANTE,Activo,Pino,"6,6",2,6,Pie,640,1050,1
+1038,TIRANTE DE PINO 2 X 6 X 6.80,nada,Maderas,TIRANTE,Activo,Pino,"6,8",2,6,Pie,640,1050,1
+1039,TIRANTE DE PINO 2 X 6 X 7,nada,Maderas,TIRANTE,Activo,Pino,7,2,6,Pie,640,1050,1
+1040,TIRANTE DE PINO 2 X 6 X 7.20,nada,Maderas,TIRANTE,Activo,Pino,"7,2",2,6,Pie,640,1050,1
+1041,TIRANTE DE PINO 2 X 6 X 7.40,nada,Maderas,TIRANTE,Activo,Pino,"7,4",2,6,Pie,640,1050,1
+1042,TIRANTE DE PINO 2 X 8 X 3,nada,Maderas,TIRANTE,Activo,Pino,3,2,8,Pie,648,750,1
+1043,TIRANTE DE PINO 2 X 8 X 3.20,nada,Maderas,TIRANTE,Activo,Pino,"3,2",2,8,Pie,648,750,1
+1044,TIRANTE DE PINO 2 X 8 X 3.40,nada,Maderas,TIRANTE,Activo,Pino,"3,4",2,8,Pie,648,750,1
+1045,TIRANTE DE PINO 2 X 8 X 3.60,nada,Maderas,TIRANTE,Activo,Pino,"3,6",2,8,Pie,648,750,1
+1046,TIRANTE DE PINO 2 X 8 X 3.60,nada,Maderas,TIRANTE,Activo,Pino,"3,6",2,8,Pie,648,750,1
+1047,TIRANTE DE PINO 2 X 8 X 3.80,nada,Maderas,TIRANTE,Activo,Pino,"3,8",2,8,Pie,648,750,1
+1048,TIRANTE DE PINO 2 X 8 X 4,nada,Maderas,TIRANTE,Activo,Pino,4,2,8,Pie,648,750,1
+1049,TIRANTE DE PINO 2 X 8 X 4.20,nada,Maderas,TIRANTE,Activo,Pino,"4,2",2,8,Pie,648,750,1
+1050,TIRANTE DE PINO 2 X 8 X 4.40,nada,Maderas,TIRANTE,Activo,Pino,"4,4",2,8,Pie,688,750,1
+1051,TIRANTE DE PINO 2 X 8 X 4.60,nada,Maderas,TIRANTE,Activo,Pino,"4,6",2,8,Pie,688,750,1
+1052,TIRANTE DE PINO 2 X 8 X 4.80,nada,Maderas,TIRANTE,Activo,Pino,"4,8",2,8,Pie,688,750,1
+1053,TIRANTE DE PINO 2 X 6 X 5,nada,Maderas,TIRANTE,Activo,Pino,5,2,8,Pie,688,1050,1
+1054,TIRANTE DE PINO 2 X 6 X 5.20,nada,Maderas,TIRANTE,Activo,Pino,"5,2",2,8,Pie,688,1050,1
+1055,TIRANTE DE PINO 2 X 8 X 5.40,nada,Maderas,TIRANTE,Activo,Pino,"5,4",2,8,Pie,688,1050,1
+1056,TIRANTE DE PINO 2 X 8 X 5.60,nada,Maderas,TIRANTE,Activo,Pino,"5,6",2,8,Pie,688,1050,1
+1057,TIRANTE DE PINO 2 X 8 X 5.80,nada,Maderas,TIRANTE,Activo,Pino,"5,8",2,8,Pie,688,1050,1
+1058,TIRANTE DE PINO 2 X 8 X 6,nada,Maderas,TIRANTE,Activo,Pino,6,2,8,Pie,729,1050,1
+1059,TIRANTE DE PINO 2 X 8 X 6.20,nada,Maderas,TIRANTE,Activo,Pino,"6,2",2,8,Pie,729,1050,1
+1060,TIRANTE DE PINO 2 X 8 X 6.40,nada,Maderas,TIRANTE,Activo,Pino,"6,4",2,8,Pie,729,1050,1
+1061,TIRANTE DE PINO 2 X 8 X 6.60,nada,Maderas,TIRANTE,Activo,Pino,"6,6",2,8,Pie,729,1050,1
+1062,TIRANTE DE PINO 2 X 8 X 6.80,nada,Maderas,TIRANTE,Activo,Pino,"6,8",2,8,Pie,729,1050,1
+1063,TIRANTE DE PINO 2 X 8 X 7,nada,Maderas,TIRANTE,Activo,Pino,7,2,8,Pie,729,1050,1
+1064,TIRANTE DE PINO 2 X 8 X 7.20,nada,Maderas,TIRANTE,Activo,Pino,"7,2",2,8,Pie,729,1050,1
+1065,TIRANTE DE PINO 2 X 8 X 7.40,nada,Maderas,TIRANTE,Activo,Pino,"7,4",2,8,Pie,729,1050,1
+1066,TIRANTE DE PINO 2 X 8 X 7.60,nada,Maderas,TIRANTE,Activo,Pino,"7,6",2,8,Pie,729,1050,1
+1067,TIRANTE DE PINO 2 X 8 X 7.80,nada,Maderas,TIRANTE,Activo,Pino,"7,8",2,8,Pie,729,1050,1
+1068,TIRANTE DE PINO 2 X 8 X 8,nada,Maderas,TIRANTE,Activo,Pino,8,2,8,Pie,729,1050,1
+1069,VIGA DE PINO 2 X 10 X 3,nada,Maderas,VIGA,Activo,Pino,3,2,10,Pie,648,750,1
+1070,VIGA DE PINO 2 X 10 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",2,10,Pie,648,750,1
+1071,VIGA DE PINO 2 X 10 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",2,10,Pie,648,750,1
+1072,VIGA DE PINO 2 X 10 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",2,10,Pie,648,750,1
+1073,VIGA DE PINO 2 X 10 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",2,10,Pie,648,750,1
+1074,VIGA DE PINO 2 X 10 X 4,nada,Maderas,VIGA,Activo,Pino,4,2,10,Pie,648,750,1
+1075,VIGA DE PINO 2 X 10 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",2,10,Pie,648,750,1
+1076,VIGA DE PINO 2 X 10 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",2,10,Pie,688,750,1
+1077,VIGA DE PINO 2 X 10 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",2,10,Pie,688,750,1
+1078,VIGA DE PINO 2 X 10 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",2,10,Pie,688,750,1
+1079,VIGA DE PINO 2 X 10 X 5,nada,Maderas,VIGA,Activo,Pino,5,2,10,Pie,688,1050,1
+1080,VIGA DE PINO 2 X 10 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",2,10,Pie,688,1050,1
+1081,VIGA DE PINO 2 X 10 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",2,10,Pie,688,1050,1
+1082,VIGA DE PINO 2 X 10 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",2,10,Pie,688,1050,1
+1083,VIGA DE PINO 2 X 10 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",2,10,Pie,729,1050,1
+1084,VIGA DE PINO 2 X 10 X 6,nada,Maderas,VIGA,Activo,Pino,6,2,10,Pie,729,1050,1
+1085,VIGA DE PINO 2 X 10 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",2,10,Pie,729,1050,1
+1086,VIGA DE PINO 2 X 10 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",2,10,Pie,729,1050,1
+1087,VIGA DE PINO 2 X 10 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",2,10,Pie,729,1050,1
+1088,VIGA DE PINO 2 X 10 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",2,10,Pie,729,1050,1
+1089,VIGA DE PINO 2 X 10 X 7,nada,Maderas,VIGA,Activo,Pino,7,2,10,Pie,729,1050,1
+1090,VIGA DE PINO 3 X 6 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,6,Pie,550,750,1
+1091,VIGA DE PINO 3 X 6 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",3,6,Pie,550,750,1
+1092,VIGA DE PINO 3 X 6 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",3,6,Pie,550,750,1
+1093,VIGA DE PINO 3 X 6 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",3,6,Pie,550,750,1
+1094,VIGA DE PINO 3 X 6 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",3,6,Pie,550,750,1
+1095,VIGA DE PINO 3 X 6 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,6,Pie,50,750,1
+1096,VIGA DE PINO 3 X 6 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",3,6,Pie,550,750,1
+1097,VIGA DE PINO 3 X 6 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",3,6,Pie,642,750,1
+1098,VIGA DE PINO 3 X 6 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",3,6,Pie,642,750,1
+1099,VIGA DE PINO 3 X 6 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",3,6,Pie,642,750,1
+1100,VIGA DE PINO 3 X 6 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,6,Pie,642,1050,1
+1101,VIGA DE PINO 3 X 6 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",3,6,Pie,642,1050,1
+1102,VIGA DE PINO 3 X 6 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",3,6,Pie,642,1050,1
+1103,VIGA DE PINO 3 X 6 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",3,6,Pie,642,1050,1
+1104,VIGA DE PINO 3 X 6 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",3,6,Pie,642,1050,1
+1105,VIGA DE PINO 3 X 6 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,6,Pie,642,1050,1
+1106,VIGA DE PINO 3 X 6 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",3,6,Pie,642,1050,1
+1107,VIGA DE PINO 3 X 6 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",3,6,Pie,642,1050,1
+1108,VIGA DE PINO 3 X 6 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",3,6,Pie,642,1050,1
+1109,VIGA DE PINO 3 X 6 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",3,6,Pie,642,1050,1
+1110,VIGA DE PINO 3 X 6 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,6,Pie,642,1050,1
+1111,VIGA DE PINO 3 X 8 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,8,Pie,648,750,1
+1112,VIGA DE PINO 3 X 8 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",3,8,Pie,648,750,1
+1113,VIGA DE PINO 3 X 8 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",3,8,Pie,648,750,1
+1114,VIGA DE PINO 3 X 8 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",3,8,Pie,648,750,1
+1115,VIGA DE PINO 3 X 8 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",3,8,Pie,648,750,1
+1116,VIGA DE PINO 3 X 8 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,8,Pie,648,750,1
+1117,VIGA DE PINO 3 X 8 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",3,8,Pie,648,750,1
+1118,VIGA DE PINO 3 X 8 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",3,8,Pie,648,750,1
+1119,VIGA DE PINO 3 X 8 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",3,8,Pie,688,750,1
+1120,VIGA DE PINO 3 X 8 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",3,8,Pie,688,750,1
+1121,VIGA DE PINO 3 X 8 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,8,Pie,688,1050,1
+1122,VIGA DE PINO 3 X 8 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",3,8,Pie,688,1050,1
+1123,VIGA DE PINO 3 X 8 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",3,8,Pie,688,1050,1
+1124,VIGA DE PINO 3 X 8 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",3,8,Pie,729,1050,1
+1125,VIGA DE PINO 3 X 8 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",3,8,Pie,729,1050,1
+1126,VIGA DE PINO 3 X 8 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,8,Pie,729,1050,1
+1127,VIGA DE PINO 3 X 8 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",3,8,Pie,729,1050,1
+1128,VIGA DE PINO 3 X 8 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",3,8,Pie,729,1050,1
+1129,VIGA DE PINO 3 X 8 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",3,8,Pie,729,1050,1
+1130,VIGA DE PINO 3 X 8 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",3,8,Pie,729,1050,1
+1131,VIGA DE PINO 3 X 8 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,8,Pie,729,1050,1
+1132,VIGA DE PINO 3 X 10 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,10,Pie,648,750,1
+1133,VIGA DE PINO 3 X 10 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",3,10,Pie,648,750,1
+1134,VIGA DE PINO 3 X 10 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",3,10,Pie,648,750,1
+1135,VIGA DE PINO 3 X 10 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",3,10,Pie,648,750,1
+1136,VIGA DE PINO 3 X 10 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",3,10,Pie,648,750,1
+1137,VIGA DE PINO 3 X 10 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,10,Pie,648,750,1
+1138,VIGA DE PINO 3 X 10 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",3,10,Pie,648,750,1
+1139,VIGA DE PINO 3 X 10 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",3,10,Pie,688,750,1
+1140,VIGA DE PINO 3 X 10 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",3,10,Pie,688,750,1
+1141,VIGA DE PINO 3 X 10 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",3,10,Pie,688,750,1
+1142,VIGA DE PINO 3 X 10 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,10,Pie,688,1050,1
+1143,VIGA DE PINO 3 X 10 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",3,10,Pie,688,1050,1
+1144,VIGA DE PINO 3 X 10 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",3,10,Pie,688,1050,1
+1145,VIGA DE PINO 3 X 10 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",3,10,Pie,688,1050,1
+1146,VIGA DE PINO 3 X 10 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",3,10,Pie,729,1050,1
+1147,VIGA DE PINO 3 X 10 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,10,Pie,729,1050,1
+1148,VIGA DE PINO 3 X 10 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",3,10,Pie,729,1050,1
+1149,VIGA DE PINO 3 X 10 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",3,10,Pie,729,1050,1
+1150,VIGA DE PINO 3 X 10 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",3,10,Pie,729,1050,1
+1151,VIGA DE PINO 3 X 10 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",3,10,Pie,729,1050,1
+1152,VIGA DE PINO 3 X 10 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,10,Pie,729,1050,1
+1153,VIGA DE PINO 3 X 11 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,11,Pie,704,750,1
+1154, VIGA DE PINO 3 X 11 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",3,11,Pie,704,750,1
+1155,VIGA DE PINO 3 X 11 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",3,11,Pie,704,750,1
+1156,VIGA DE PINO 3 X 11 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",3,11,Pie,704,750,1
+1157,VIGA DE PINO 3 X 11 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",3,11,Pie,704,750,1
+1158,VIGA DE PINO 3 X 11 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,11,Pie,704,750,1
+1159,VIGA DE PINO 3 X 11 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",3,11,Pie,704,750,1
+1160,VIGA DE PINO 3 X 11 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",3,11,Pie,729,750,1
+1161,VIGA DE PINO 3 X 11 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",3,11,Pie,729,750,1
+1162,VIGA DE PINO 3 X 11 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",3,11,Pie,79,750,1
+1163,VIGA DE PINO 3 X 11 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,11,Pie,729,1050,1
+1164,VIGA DE PINO 3 X 11 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",3,11,Pie,729,1050,1
+1165,VIGA DE PINO 3 X 11 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",3,11,Pie,729,1050,1
+1166,VIGA DE PINO 3 X 11 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",3,11,Pie,729,1050,1
+1167,VIGA DE PINO 3 X 11 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",3,11,Pie,769,1050,1
+1168,VIGA DE PINO 3 X 11 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,11,Pie,769,1050,1
+1169,VIGA DE PINO 3 X 11 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",3,11,Pie,769,1050,1
+1170,VIGA DE PINO 3 X 11 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",3,11,Pie,769,1050,1
+1171,VIGA DE PINO 3 X 11 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",3,11,Pie,769,1050,1
+1172,VIGA DE PINO 3 X 11 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",3,11,Pie,769,1050,1
+1173,VIGA DE PINO 3 X 11 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,11,Pie,769,1050,1
+1174,VIGA DE PINO 3 X 12 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,12,Pie,704,750,1
+1175,VIGA DE PINO 3 X 12 X 3.20,nada,Maderas,VIGA,Activo,Pino,"3,2",3,12,Pie,704,750,1
+1176,VIGA DE PINO 3 X 12 X 3.40,nada,Maderas,VIGA,Activo,Pino,"3,4",3,12,Pie,704,750,1
+1177,VIGA DE PINO 3 X 12 X 3.60,nada,Maderas,VIGA,Activo,Pino,"3,6",3,12,Pie,704,750,1
+1178,VIGA DE PINO 3 X 12 X 3.80,nada,Maderas,VIGA,Activo,Pino,"3,8",3,12,Pie,704,750,1
+1179,VIGA DE PINO 3 X 12 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,12,Pie,704,750,1
+1180,VIGA DE PINO 3 X 12 X 4.20,nada,Maderas,VIGA,Activo,Pino,"4,2",3,12,Pie,704,750,1
+1181,VIGA DE PINO 3 X 12 X 4.40,nada,Maderas,VIGA,Activo,Pino,"4,4",3,12,Pie,729,750,1
+1182,VIGA DE PINO 3 X 12 X 4.60,nada,Maderas,VIGA,Activo,Pino,"4,6",3,12,Pie,729,750,1
+1183,VIGA DE PINO 3 X 12 X 4.80,nada,Maderas,VIGA,Activo,Pino,"4,8",3,12,Pie,729,750,1
+1184,VIGA DE PINO 3 X 12 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,12,Pie,729,1050,1
+1185,VIGA DE PINO 3 X 12 X 5.20,nada,Maderas,VIGA,Activo,Pino,"5,2",3,12,Pie,729,1050,1
+1186,VIGA DE PINO 3 X 12 X 5.40,nada,Maderas,VIGA,Activo,Pino,"5,4",3,12,Pie,729,1050,1
+1187,VIGA DE PINO 3 X 12 X 5.60,nada,Maderas,VIGA,Activo,Pino,"5,6",3,12,Pie,729,1050,1
+1188,VIGA DE PINO 3 X 12 X 5.80,nada,Maderas,VIGA,Activo,Pino,"5,8",3,12,Pie,769,1050,1
+1189,VIGA DE PINO 3 X 12 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,12,Pie,769,1050,1
+1190,VIGA DE PINO 3 X 12 X 6.20,nada,Maderas,VIGA,Activo,Pino,"6,2",3,12,Pie,769,1050,1
+1191,VIGA DE PINO 3 X 12 X 6.40,nada,Maderas,VIGA,Activo,Pino,"6,4",3,12,Pie,769,1050,1
+1192,VIGA DE PINO 3 X 12 X 6.60,nada,Maderas,VIGA,Activo,Pino,"6,6",3,12,Pie,769,1050,1
+1193,VIGA DE PINO 3 X 12 X 6.80,nada,Maderas,VIGA,Activo,Pino,"6,8",3,12,Pie,769,1050,1
+1194,VIGA DE PINO 3 X 12 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,12,Pie,769,1050,1
+1195,VIGA DE PINO 3 X 14 X 3,nada,Maderas,VIGA,Activo,Pino,3,3,14,Pie,704,750,1
+1196,VIGA DE PINO 3 X 14 X 3.2,nada,Maderas,VIGA,Activo,Pino,"3,2",3,14,Pie,704,750,1
+1197,VIGA DE PINO 3 X 14 X 3.4,nada,Maderas,VIGA,Activo,Pino,"3,4",3,14,Pie,704,750,1
+1198,VIGA DE PINO 3 X 14 X 3.6,nada,Maderas,VIGA,Activo,Pino,"3,6",3,14,Pie,704,750,1
+1199,VIGA DE PINO 3 X 14 X 3.8,nada,Maderas,VIGA,Activo,Pino,"3,8",3,14,Pie,704,750,1
+1200,VIGA DE PINO 3 X 14 X 4,nada,Maderas,VIGA,Activo,Pino,4,3,14,Pie,704,750,1
+1201,VIGA DE PINO 3 X 14 X 4.2,nada,Maderas,VIGA,Activo,Pino,"4,2",3,14,Pie,704,750,1
+1202,VIGA DE PINO 3 X 14 X 4.4,nada,Maderas,VIGA,Activo,Pino,"4,4",3,14,Pie,729,750,1
+1203,VIGA DE PINO 3 X 14 X 4.6,nada,Maderas,VIGA,Activo,Pino,"4,6",3,14,Pie,729,750,1
+1204,VIGA DE PINO 3 X 14 X 4.8,nada,Maderas,VIGA,Activo,Pino,"4,8",3,14,Pie,729,750,1
+1205,VIGA DE PINO 3 X 14 X 5,nada,Maderas,VIGA,Activo,Pino,5,3,14,Pie,729,1050,1
+1206,VIGA DE PINO 3 X 14 X 5.2,nada,Maderas,VIGA,Activo,Pino,"5,2",3,14,Pie,729,1050,1
+1207,VIGA DE PINO 3 X 14 X 5.4,nada,Maderas,VIGA,Activo,Pino,"5,4",3,14,Pie,729,1050,1
+1208,VIGA DE PINO 3 X 14 X 5.6,nada,Maderas,VIGA,Activo,Pino,"5,6",3,14,Pie,769,1050,1
+1209,VIGA DE PINO 3 X 14 X 5.8,nada,Maderas,VIGA,Activo,Pino,"5,8",3,14,Pie,769,1050,1
+1210,VIGA DE PINO 3 X 14 X 6,nada,Maderas,VIGA,Activo,Pino,6,3,14,Pie,769,1050,1
+1211,VIGA DE PINO 3 X 14 X 6.2,nada,Maderas,VIGA,Activo,Pino,"6,2",3,14,Pie,769,1050,1
+1212,VIGA DE PINO 3 X 14 X 6.4,nada,Maderas,VIGA,Activo,Pino,"6,4",3,14,Pie,769,1050,1
+1213,VIGA DE PINO 3 X 14 X 6.6,nada,Maderas,VIGA,Activo,Pino,"6,6",3,14,Pie,769,1050,1
+1214,VIGA DE PINO 3 X 14 X 6.8,nada,Maderas,VIGA,Activo,Pino,"6,8",3,14,Pie,769,1050,1
+1215,VIGA DE PINO 3 X 14 X 7,nada,Maderas,VIGA,Activo,Pino,7,3,14,Pie,769,1050,1
+1216,TIRANTE DE PINO 2 X 4 X 3.00,nada,Maderas,TIRANTE,Activo,Pino,3,2,4,Pie,461,750,1
+1217,TIRANTE DE PINO 2 X 4 X 3.20,nada,Maderas,TIRANTE,Activo,Pino,"3,2",2,4,Pie,461,750,1
+1218,TIRANTE DE PINO 2 X 4 X 3.40,nada,Maderas,TIRANTE,Activo,Pino,"3,4",2,4,Pie,461,750,1
+1219,TIRANTE DE PINO 2 X 4 X 3.60,nada,Maderas,TIRANTE,Activo,Pino,"3,6",2,4,Pie,461,750,1
+1220,TIRANTE DE PINO 2 X 4 X 3.80,nada,Maderas,TIRANTE,Activo,Pino,"3,8",2,4,Pie,461,750,1
+1221,TIRANTE DE PINO 2 X 4 X 4.00,nada,Maderas,TIRANTE,Activo,Pino,4,2,4,Pie,461,750,1
+1222,TIRANTE DE PINO 2 X 4 X 4.20,nada,Maderas,TIRANTE,Activo,Pino,"4,2",2,4,Pie,461,750,1
+1223,TIRANTE DE PINO 2 X 4 X 4.40,nada,Maderas,TIRANTE,Activo,Pino,"4,4",2,4,Pie,461,750,1
+1224,TIRANTE DE PINO 2 X 4 X 4.60,nada,Maderas,TIRANTE,Activo,Pino,"4,6",2,4,Pie,526,750,1
+1225,TIRANTE DE PINO 2 X 4 X 4.80,nada,Maderas,TIRANTE,Activo,Pino,"4,8",2,4,Pie,526,750,1
+1226,TIRANTE DE PINO 2 X 4 X 5.00,nada,Maderas,TIRANTE,Activo,Pino,5,2,4,Pie,526,1050,1
+1227,TIRANTE DE PINO 2 X 4 X 5.20,nada,Maderas,TIRANTE,Activo,Pino,"5,2",2,4,Pie,526,1050,1
+1228,TIRANTE DE PINO 2 X 4 X 5.40,nada,Maderas,TIRANTE,Activo,Pino,"5,4",2,4,Pie,526,1050,1
+1229,TIRANTE DE PINO 2 X 4 X 5.60,nada,Maderas,TIRANTE,Activo,Pino,"5,6",2,4,Pie,526,1050,1
+1230,TIRANTE DE PINO 2 X 4 X 5.80,nada,Maderas,TIRANTE,Activo,Pino,"5,8",2,4,Pie,526,1050,1
+1231,TIRANTE DE PINO 2 X 4 X 6.00,nada,Maderas,TIRANTE,Activo,Pino,6,2,4,Pie,526,1050,1
+1232,TIRANTE DE PINO 2 X 4 X 6.20,nada,Maderas,TIRANTE,Activo,Pino,"6,2",2,4,Pie,526,1050,1
+1233,TIRANTE DE PINO 2 X 4 X 6.40,nada,Maderas,TIRANTE,Activo,Pino,"6,4",2,4,Pie,526,1050,1
+1234,TIRANTE DE PINO 2 X 4 X 6.60,nada,Maderas,TIRANTE,Activo,Pino,"6,6",2,4,Pie,526,1050,1
+1235,TIRANTE DE PINO 2 X 4 X 6.80,nada,Maderas,TIRANTE,Activo,Pino,"6,8",2,4,Pie,526,1050,1
+1236,TIRANTE DE PINO 2 X 4 X 7.00,nada,Maderas,TIRANTE,Activo,Pino,7,2,4,Pie,526,1050,1

@@ -1,0 +1,868 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 94.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Estilos personalizados para la tabla */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Animaciones suaves */
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effects mejorados con soporte dark/light */
+.hover\:bg-accent:hover {
+  background-color: hsl(var(--accent));
+}
+
+.hover\:bg-primary\/10:hover {
+  background-color: hsl(var(--primary) / 0.1);
+}
+
+/* Estilos para badges personalizados con soporte dark/light */
+.badge-custom {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+/* Estilos para cards con gradientes adaptados */
+.card-gradient {
+  background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+}
+
+/* Estilos personalizados para tablas mejoradas */
+
+/* Scrollbar personalizado para las tablas */
+.table-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animaciones para las filas de la tabla */
+.table-row {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.table-row:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Efectos de hover para botones de acción */
+.action-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradientes y sombras para las celdas */
+.table-cell {
+  position: relative;
+  overflow: hidden;
+}
+
+.table-cell::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.table-row:hover .table-cell::before {
+  left: 100%;
+}
+
+/* Estilos para badges de estado */
+.status-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.status-badge::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.6s ease;
+}
+
+.status-badge:hover::after {
+  left: 100%;
+}
+
+/* Efectos de carga para las tablas */
+.table-loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.table-loading::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+  animation: loading-shimmer 1.5s infinite;
+}
+
+@keyframes loading-shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Estilos para paginación */
+.pagination-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pagination-button:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pagination-button:active {
+  transform: scale(0.95);
+}
+
+/* Estilos para el header de la tabla */
+.table-header {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-bottom: 2px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+}
+
+/* Estilos para las celdas del header */
+.table-header-cell {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #475569;
+  border-bottom: 2px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.table-header-cell:hover {
+  background: rgba(59, 130, 246, 0.05);
+  color: #1e40af;
+}
+
+/* Estilos para el cuerpo de la tabla */
+.table-body {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+/* Estilos para filas alternadas */
+.table-row:nth-child(even) {
+  background: rgba(248, 250, 252, 0.5);
+}
+
+.table-row:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Estilos para el estado de selección */
+.table-row[data-state="selected"] {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  border-left: 4px solid #3b82f6;
+}
+
+/* Estilos para botones de acción */
+.action-button-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.action-button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.action-button.primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+}
+
+.action-button.primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.action-button.secondary {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+}
+
+.action-button.secondary:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.action-button.danger {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+.action-button.danger:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+/* Estilos para iconos en las celdas */
+.cell-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.cell-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para el estado vacío */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 1rem;
+  border: 2px dashed #cbd5e1;
+}
+
+.empty-state-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.empty-state-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state-description {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Responsive design para tablas */
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 0.875rem;
+  }
+  
+  .action-button-group {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .action-button {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .cell-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+/* Animaciones de entrada para las filas */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.table-row {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+.table-row:nth-child(1) { animation-delay: 0.05s; }
+.table-row:nth-child(2) { animation-delay: 0.1s; }
+.table-row:nth-child(3) { animation-delay: 0.15s; }
+.table-row:nth-child(4) { animation-delay: 0.2s; }
+.table-row:nth-child(5) { animation-delay: 0.25s; }
+
+/* Estilos para el loader de la tabla */
+.table-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 0.5rem;
+}
+
+.loader-spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid #e2e8f0;
+  border-top: 3px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+}
+
+/* Estilos para la tabla con soporte dark/light */
+.table-custom {
+  @apply w-full border-collapse;
+}
+
+.table-custom th {
+  @apply bg-muted text-left p-3 font-semibold text-foreground border-b border-border;
+}
+
+.table-custom td {
+  @apply p-3 border-b border-border/50;
+}
+
+.table-custom tr:hover {
+  @apply bg-accent/50;
+}
+
+/* Estilos para paginación con soporte dark/light */
+.pagination-button {
+  @apply inline-flex items-center justify-center w-8 h-8 text-sm font-medium border border-border rounded-md hover:bg-accent focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 text-foreground;
+}
+
+.pagination-button.active {
+  @apply bg-primary text-primary-foreground border-primary hover:bg-primary/90;
+}
+
+/* Estilos para filtros con soporte dark/light */
+.filter-card {
+  @apply bg-card border border-border rounded-lg shadow-sm;
+}
+
+.filter-input {
+  @apply w-full px-3 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground placeholder:text-muted-foreground;
+}
+
+/* Estilos para estadísticas con soporte dark/light */
+.stats-card {
+  @apply bg-card border border-border rounded-lg shadow-sm p-6;
+}
+
+.stats-number {
+  @apply text-3xl font-bold text-foreground;
+}
+
+.stats-label {
+  @apply text-sm font-medium text-muted-foreground;
+}
+
+/* Estilos para botones con soporte dark/light */
+.btn-primary {
+  @apply bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-muted text-muted-foreground px-4 py-2 rounded-md hover:bg-accent focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors;
+}
+
+/* Estilos para tooltips con soporte dark/light */
+.tooltip {
+  @apply absolute z-10 px-2 py-1 text-xs text-primary-foreground bg-primary rounded shadow-lg opacity-0 pointer-events-none transition-opacity;
+}
+
+.tooltip.show {
+  @apply opacity-100;
+}
+
+/* Estilos para scrollbars personalizados con soporte dark/light */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--muted-foreground)) hsl(var(--muted));
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--muted-foreground));
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--foreground));
+}
+
+/* Estilos para animaciones de carga con soporte dark/light */
+.loading-spinner {
+  @apply animate-spin rounded-full h-4 w-4 border-2 border-muted border-t-primary;
+}
+
+/* Estilos para estados de prioridad con soporte dark/light */
+.priority-high {
+  @apply bg-red-100 text-red-800 border-red-200 dark:bg-red-900/30 dark:text-red-300 dark:border-red-700/50;
+}
+
+.priority-medium {
+  @apply bg-orange-100 text-orange-800 border-orange-200 dark:bg-orange-900/30 dark:text-orange-300 dark:border-orange-700/50;
+}
+
+.priority-low {
+  @apply bg-gray-100 text-gray-800 border-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600;
+}
+
+/* Estilos para estados con soporte dark/light */
+.status-nuevo {
+  @apply bg-blue-100 text-blue-800 border-blue-200 dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-700/50;
+}
+
+.status-seguimiento {
+  @apply bg-yellow-100 text-yellow-800 border-yellow-200 dark:bg-yellow-900/30 dark:text-yellow-300 dark:border-yellow-700/50;
+}
+
+.status-contactado {
+  @apply bg-green-100 text-green-800 border-green-200 dark:bg-green-900/30 dark:text-green-300 dark:border-green-700/50;
+}
+
+/* Estilos para el buscador global */
+.global-search {
+  @apply relative w-full;
+}
+
+.global-search input {
+  @apply w-full pl-10 pr-4 py-2 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all;
+}
+
+.global-search .search-icon {
+  @apply absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground;
+}
+
+/* Estilos para filtros avanzados */
+.advanced-filters {
+  @apply bg-card border border-border rounded-lg shadow-sm;
+}
+
+.filter-section {
+  @apply space-y-4 p-4;
+}
+
+.filter-label {
+  @apply text-sm font-medium text-foreground;
+}
+
+.filter-control {
+  @apply w-full px-3 py-2 border border-border rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all;
+}
+
+/* Estilos para la tabla de datos */
+.data-table {
+  @apply w-full border-collapse bg-card rounded-lg overflow-hidden shadow-sm;
+}
+
+.data-table-header {
+  @apply bg-muted/50 border-b border-border;
+}
+
+.data-table-header th {
+  @apply px-4 py-3 text-left text-sm font-semibold text-foreground;
+}
+
+.data-table-body tr {
+  @apply border-b border-border/50 hover:bg-accent/50 transition-colors;
+}
+
+.data-table-body tr:nth-child(even) {
+  @apply bg-muted/20;
+}
+
+.data-table-body td {
+  @apply px-4 py-3 text-sm text-foreground;
+}
+
+/* Estilos para paginación mejorada */
+.pagination-container {
+  @apply flex items-center justify-between px-4 py-3 bg-card border-t border-border;
+}
+
+.pagination-info {
+  @apply text-sm text-muted-foreground;
+}
+
+.pagination-controls {
+  @apply flex items-center space-x-2;
+}
+
+.pagination-button {
+  @apply inline-flex items-center justify-center w-8 h-8 text-sm font-medium border border-border rounded-md hover:bg-accent focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 text-foreground transition-colors;
+}
+
+.pagination-button.active {
+  @apply bg-primary text-primary-foreground border-primary hover:bg-primary/90;
+}
+
+.pagination-button:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table-responsive {
+    @apply overflow-x-auto;
+  }
+  
+  .stats-grid {
+    @apply grid-cols-1 gap-4;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .stats-grid {
+    @apply grid-cols-2 gap-4;
+  }
+}
+
+@media (min-width: 1025px) {
+  .stats-grid {
+    @apply grid-cols-4 gap-4;
+  }
+} 
+
+/* Estilos para el calendario de filtros */
+.calendar-filter {
+  @apply relative;
+}
+
+.calendar-filter .rdp {
+  @apply bg-background border border-border rounded-lg shadow-lg;
+}
+
+.calendar-filter .rdp-day {
+  @apply text-foreground hover:bg-accent focus:bg-primary focus:text-primary-foreground;
+}
+
+.calendar-filter .rdp-day_selected {
+  @apply bg-primary text-primary-foreground;
+}
+
+.calendar-filter .rdp-day_range_start {
+  @apply bg-primary text-primary-foreground rounded-l-full;
+}
+
+.calendar-filter .rdp-day_range_end {
+  @apply bg-primary text-primary-foreground rounded-r-full;
+}
+
+.calendar-filter .rdp-day_range_middle {
+  @apply bg-primary/20 text-foreground;
+}
+
+.calendar-filter .rdp-day_today {
+  @apply bg-muted text-foreground font-semibold;
+}
+
+.calendar-filter .rdp-nav_button {
+  @apply text-foreground hover:bg-accent;
+}
+
+.calendar-filter .rdp-head_cell {
+  @apply text-muted-foreground font-medium;
+}
+
+/* Indicador de filtro activo */
+.filter-indicator {
+  @apply absolute -top-1 -right-1 w-3 h-3 bg-primary rounded-full animate-pulse;
+}
+
+/* Botón de filtro con estado activo */
+.filter-button-active {
+  @apply border-primary/50 bg-primary/5 text-primary;
+}
+
+/* Animación para el popover del calendario */
+.calendar-popover {
+  animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos para los botones de acción del calendario */
+.calendar-actions {
+  @apply flex items-center justify-end gap-2 p-3 border-t border-border bg-muted/20;
+}
+
+/* Estilos para el botón de limpiar filtro */
+.clear-filter-button {
+  @apply h-9 px-2 border-border hover:bg-accent text-foreground transition-colors;
+}
+
+.clear-filter-button:hover {
+  @apply bg-destructive/10 text-destructive border-destructive/30;
+} 
+
+/* Estilos para el dropdown del perfil */
+.profile-dropdown {
+  @apply bg-background border border-border rounded-lg shadow-lg;
+}
+
+.profile-avatar {
+  @apply relative inline-flex items-center justify-center;
+}
+
+.profile-avatar-initials {
+  @apply bg-gradient-to-br from-primary to-primary/80 text-primary-foreground font-semibold;
+}
+
+.profile-status-indicator {
+  @apply absolute -bottom-1 -right-1 w-3 h-3 bg-green-500 border-2 border-background rounded-full;
+}
+
+.profile-stats-grid {
+  @apply grid grid-cols-3 gap-4 p-4 border-b border-border bg-muted/20;
+}
+
+.profile-stats-item {
+  @apply text-center;
+}
+
+.profile-stats-number {
+  @apply text-lg font-bold text-foreground;
+}
+
+.profile-stats-label {
+  @apply text-xs text-muted-foreground;
+}
+
+.profile-menu-item {
+  @apply flex items-center gap-3 p-3 rounded-lg hover:bg-accent cursor-pointer transition-colors;
+}
+
+.profile-menu-item-icon {
+  @apply w-4 h-4 text-muted-foreground;
+}
+
+.profile-menu-item-content {
+  @apply flex-1;
+}
+
+.profile-menu-item-title {
+  @apply text-sm font-medium text-foreground;
+}
+
+.profile-menu-item-description {
+  @apply text-xs text-muted-foreground;
+}
+
+.profile-logout-item {
+  @apply flex items-center gap-3 p-3 rounded-lg hover:bg-destructive/10 hover:text-destructive cursor-pointer transition-colors;
+}
+
+/* Animaciones para el dropdown */
+.profile-dropdown-enter {
+  animation: slideInUp 0.2s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Efectos hover mejorados */
+.profile-trigger {
+  @apply flex items-center gap-3 p-2 rounded-lg hover:bg-accent transition-colors;
+}
+
+.profile-trigger:hover {
+  @apply bg-accent/80;
+}
+
+/* Estilos para el avatar con gradiente */
+.avatar-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.8) 100%);
+}
+
+/* Estilos para las estadísticas */
+.stats-highlight {
+  @apply text-green-600 dark:text-green-400;
+}
+
+.stats-primary {
+  @apply text-primary;
+}
+
+/* Estilos para los separadores */
+.profile-separator {
+  @apply border-border bg-border;
+}
+
+/* Estilos para el submenu */
+.profile-submenu {
+  @apply bg-background border border-border rounded-lg shadow-lg;
+}
+
+.profile-submenu-item {
+  @apply flex items-center gap-2 p-2 hover:bg-accent cursor-pointer transition-colors;
+}
+
+/* Responsive design para el perfil */
+@media (max-width: 768px) {
+  .profile-trigger-text {
+    @apply hidden;
+  }
+  
+  .profile-dropdown-content {
+    @apply w-72;
+  }
+}
+
+@media (min-width: 769px) {
+  .profile-dropdown-content {
+    @apply w-80;
+  }
+} 

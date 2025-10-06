@@ -185,3 +185,6 @@ export function useResponsiveColumns(options = {}) {
     },
   ];
 }
+
+// Exportación por defecto para compatibilidad
+export const columns = useResponsiveColumns();

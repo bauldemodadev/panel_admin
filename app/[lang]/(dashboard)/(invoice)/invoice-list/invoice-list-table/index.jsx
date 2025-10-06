@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { columns } from "./components/columns";
 import { DataTable } from "./components/data-table";
-import { data } from "./data";
+import { data } from "./data/index.js";
 
 export default function InvoiceListTable() {
   return (

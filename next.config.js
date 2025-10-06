@@ -30,6 +30,15 @@ const nextConfig = {
     // Modify the file loader rule to ignore *.svg, since we have it handled now.
     fileLoaderRule.exclude = /\.svg$/i;
 
+    // Improve module resolution
+    config.resolve = {
+      ...config.resolve,
+      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      alias: {
+        ...config.resolve.alias,
+      },
+    };
+
     return config;
   },
   images: {

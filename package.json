@@ -148,6 +148,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^8.2.0",
+    "@next/swc-wasm-nodejs": "^15.5.4",
     "@svgr/webpack": "^8.1.0",
     "@types/firebase": "^2.4.32",
     "@types/node": "^20.10.0",

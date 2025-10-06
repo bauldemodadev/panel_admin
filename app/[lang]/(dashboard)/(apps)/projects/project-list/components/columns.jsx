@@ -92,7 +92,7 @@ export const columns = [
         <div className="flex  items-center">
           <Badge
             variant="soft"
-            color={status?.color}
+            color={status?.color || "default"}
             className="whitespace-normal"
           >
             {status?.label}
@@ -162,7 +162,7 @@ export const columns = [
       }
 
       return (
-        <Badge color={priority.color} className="whitespace-nowrap">
+        <Badge color={priority.color || "default"} className="whitespace-nowrap">
           {priority.label} priority
         </Badge>
       );

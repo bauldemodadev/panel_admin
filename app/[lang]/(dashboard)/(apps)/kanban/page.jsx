@@ -1,4 +1,4 @@
-import { data as leads } from "../../(tables)/data-table/advanced/data/index.js";
+import { data as leads } from "../../(tables)/data-table/advanced/data";
 import KanbanBreadCrumbs from "./bread-crumbs";
 import TaskBoard from "@/components/task-board";
 

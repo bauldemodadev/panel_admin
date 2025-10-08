@@ -13,7 +13,7 @@ const horizontalHeader = () => {
           <SiteLogo className="h-7 w-7" />
           <span className="text-xl font-semibold lg:inline-block hidden">
             {" "}
-            DashTail
+            Baúl de Moda
           </span>
         </Link>
       </div>

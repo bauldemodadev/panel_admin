@@ -83,7 +83,7 @@ const FooterContent = () => {
   return (
     <div className="block md:flex md:justify-between text-muted-foreground">
       <p className="sm:mb-0 text-xs md:text-sm">
-        COPYRIGHT © {new Date().getFullYear()} Maderas Caballero. Todos los derechos reservados.
+        COPYRIGHT © {new Date().getFullYear()} Baúl de Moda. Todos los derechos reservados.
       </p>
       <p className="mb-0 text-xs md:text-sm">
       Desarrollado por{" "}

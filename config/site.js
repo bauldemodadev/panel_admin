@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Maderas Caballero | Panel Administrativo",
-  description: "Sistema interno para la gestión de ventas, stock, clientes y proyectos de Maderas Caballero. Administra, organiza y haz crecer tu maderera con tecnología.",
-  keywords: "maderera, Maderas Caballero, gestión de ventas, stock, clientes, proyectos, administración, POS, panel administrativo, comercio de maderas",
-  author: "Maderas Caballero",
+  name: "Baúl de Moda | Panel Administrativo",
+  description: "Sistema interno para la gestión de productos, clientes y ventas de Baúl de Moda. Administra, organiza y haz crecer tu tienda de moda con tecnología.",
+  keywords: "moda, Baúl de Moda, gestión de ventas, productos, clientes, administración, panel administrativo, tienda de ropa, fashion",
+  author: "Baúl de Moda",
   theme: "violet",
   layout: "vertical",
   // semi-box, horizontal, vertical

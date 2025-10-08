@@ -7,27 +7,25 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Loader2 } from "lucide-react";
-import { signIn } from "next-auth/react";
+import { loginWithEmail } from "@/lib/firebase";
 import toast from "react-hot-toast";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
 import { Icon } from "@iconify/react";
 import { Checkbox } from "@/components/ui/checkbox";
-import googleIcon from "@/public/images/auth/google.png";
-import facebook from "@/public/images/auth/facebook.png";
-import twitter from "@/public/images/auth/twitter.png";
-import GithubIcon from "@/public/images/auth/github.png";
 import { SiteLogo } from "@/components/svg";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 const schema = z.object({
-  email: z.string().email({ message: "Your email is invalid." }),
-  password: z.string().min(4),
+  email: z.string().email({ message: "El correo no es válido." }),
+  password: z.string().min(4, { message: "La contraseña debe tener al menos 4 caracteres." }),
 });
+
 const LogInForm = () => {
   const [isPending, startTransition] = React.useTransition();
   const [passwordType, setPasswordType] = React.useState("password");
+  const isDesktop2xl = useMediaQuery("(max-width: 1530px)");
+
   const togglePasswordType = () => {
     if (passwordType === "text") {
       setPasswordType("password");
@@ -44,28 +42,25 @@ const LogInForm = () => {
     resolver: zodResolver(schema),
     mode: "all",
     defaultValues: {
-      email: "dashtail@codeshaper.net",
-      password: "password",
+      email: "",
+      password: "",
     },
   });
-  const [isVisible, setIsVisible] = React.useState(false);
-
-  const toggleVisibility = () => setIsVisible(!isVisible);
-  const isDesktop2xl = useMediaQuery("(max-width: 1530px)");
 
   const onSubmit = (data) => {
     startTransition(async () => {
-      let response = await signIn("credentials", {
-        email: data.email,
-        password: data.password,
-        redirect: false,
-      });
-      if (response?.ok) {
-        toast.success("Login Successful");
+      try {
+        await loginWithEmail(data.email, data.password);
+        toast.success("Inicio de sesión exitoso");
         window.location.assign("/dashboard");
         reset();
-      } else if (response?.error) {
-        toast.error(response?.error);
+      } catch (error) {
+        let msg = "Error al iniciar sesión";
+        if (error.code === "auth/user-not-found") msg = "Usuario no encontrado.";
+        else if (error.code === "auth/wrong-password") msg = "Contraseña incorrecta.";
+        else if (error.code === "auth/invalid-email") msg = "Correo inválido.";
+        else if (error.code === "auth/invalid-credential") msg = "Credenciales inválidas.";
+        toast.error(msg);
       }
     });
   };
@@ -75,10 +70,10 @@ const LogInForm = () => {
         <SiteLogo className="h-10 w-10 2xl:h-14 2xl:w-14 text-primary" />
       </Link>
       <div className="2xl:mt-8 mt-6 2xl:text-3xl text-2xl font-bold text-default-900">
-        Hey, Hello 👋
+        ¡Hola! 👋
       </div>
       <div className="2xl:text-lg text-base text-default-600 mt-2 leading-6">
-        Enter the information you entered while registering.
+        Ingresa tus credenciales para acceder al panel.
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="2xl:mt-7 mt-8">
         <div className="relative">
@@ -103,7 +98,7 @@ const LogInForm = () => {
               }
             )}
           >
-            Email
+            Correo electrónico
           </Label>
         </div>
         {errors.email && (
@@ -132,7 +127,7 @@ const LogInForm = () => {
               }
             )}
           >
-            Password
+            Contraseña
           </Label>
           <div
             className="absolute top-1/2 -translate-y-1/2 ltr:right-4 rtl:left-4 cursor-pointer"
@@ -165,11 +160,11 @@ const LogInForm = () => {
               htmlFor="isRemebered"
               className="text-sm text-default-600 cursor-pointer whitespace-nowrap"
             >
-              Remember me
+              Recuérdame
             </Label>
           </div>
-          <Link href="/auth/forgot3" className="flex-none text-sm text-primary">
-            Forget Password?
+          <Link href="/auth/forgot" className="flex-none text-sm text-primary">
+            ¿Olvidaste tu contraseña?
           </Link>
         </div>
         <Button
@@ -178,62 +173,9 @@ const LogInForm = () => {
           size={!isDesktop2xl ? "lg" : "md"}
         >
           {isPending && <Loader2 className="ltr:mr-2 rtl:ml-2 h-4 w-4 animate-spin" />}
-          {isPending ? "Loading..." : "Sign In"}
+          {isPending ? "Cargando..." : "Iniciar sesión"}
         </Button>
       </form>
-      <div className="2xl:mt-8 mt-6 flex flex-wrap justify-center gap-4">
-        <Button
-          type="button"
-          size="icon"
-          variant="outline"
-          className="rounded-full  border-default-300 hover:bg-background"
-          disabled={isPending}
-          onClick={() =>
-            signIn("google", {
-              callbackUrl: "/dashboard",
-            })
-          }
-        >
-          <Image src={googleIcon} alt="google" className="w-5 h-5" />
-        </Button>
-        <Button
-          type="button"
-          size="icon"
-          variant="outline"
-          className="rounded-full border-default-300 hover:bg-background"
-          disabled={isPending}
-          onClick={() =>
-            signIn("github", {
-              callbackUrl: "/dashboard",
-              redirect: false,
-            })
-          }
-        >
-          <Image src={GithubIcon} alt="google" className="w-5 h-5" />
-        </Button>
-        <Button
-          type="button"
-          size="icon"
-          variant="outline"
-          className="rounded-full  border-default-300 hover:bg-background"
-        >
-          <Image src={facebook} alt="google" className="w-5 h-5" />
-        </Button>
-        <Button
-          type="button"
-          size="icon"
-          variant="outline"
-          className="rounded-full  border-default-300 hover:bg-background"
-        >
-          <Image src={twitter} alt="google" className="w-5 h-5" />
-        </Button>
-      </div>
-      <div className="mt-6 text-center text-base text-default-600">
-        Don't have an account?{" "}
-        <Link href="/auth/register3" className="text-primary">
-          Sign Up{" "}
-        </Link>
-      </div>
     </div>
   );
 };

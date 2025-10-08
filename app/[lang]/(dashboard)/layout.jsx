@@ -10,7 +10,7 @@ const Layout = ({ children, params: { lang } }) => {
 
   useEffect(() => {
     if (!loading && !user) {
-      router.replace("/auth/login");
+      router.replace("/auth/login3");
     }
   }, [user, loading, router]);
 

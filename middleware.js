@@ -18,6 +18,12 @@ export function middleware(request) {
   // Check if there is any supported locale in the pathname
   const pathname = request.nextUrl.pathname;
 
+  // Redirect /auth/login to /auth/login3 (with or without locale)
+  if (pathname.endsWith('/auth/login') || pathname === '/auth/login') {
+    const newPathname = pathname.replace('/auth/login', '/auth/login3');
+    return NextResponse.redirect(new URL(newPathname, request.url));
+  }
+
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
